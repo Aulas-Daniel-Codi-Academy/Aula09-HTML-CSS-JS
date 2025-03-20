@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de Senha</h1>
+      <p id="lbl-senha-sorteada"></p>
+      <div class="input-group">
+        <label for="input-tamanho-senha">Tamanho</label>
+        <input
+          type="number"
+          id="input-tamanho-senha"
+          name="input-tamanho-senha"
+          min="6"
+          max="20"
+          value="6"
+        />
+      </div>
+      <div class="btn-group">
+        <button type="button" id="btn-sortear">Gerar</button>
+        <button type="button" id="btn-copiar">Copiar</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

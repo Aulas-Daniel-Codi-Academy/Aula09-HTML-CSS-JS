@@ -1,0 +1,83 @@
+/* Estilos gerais */
+body {
+  background-color: #ffffff; /* Fundo branco para toda a página */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  background-color: #f0f0f0; /* Fundo cinza para o conteúdo */
+  padding: 30px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 350px; /* Largura fixa */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Título */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Grupo de input */
+.input-group {
+  margin-bottom: 20px; /* Espaçamento abaixo do input */
+}
+
+.input-group label {
+  font-weight: bold;
+  display: block; /* Faz o label ocupar a linha inteira */
+  margin-bottom: 5px; /* Espaçamento abaixo do label */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Grupo de botões */
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espaçamento entre os botões */
+  margin-top: 20px; /* Espaçamento acima dos botões */
+}
+
+.btn-group button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Botão "Gerar" */
+#btn-sortear {
+  background-color: #28a745; /* Verde */
+}
+
+#btn-sortear:hover {
+  background-color: #218838; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Botão "Copiar" */
+#btn-copiar {
+  background-color: #007bff; /* Azul */
+}
+
+#btn-copiar:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
